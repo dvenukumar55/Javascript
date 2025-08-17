@@ -1,0 +1,348 @@
+/*hh
+#cl{
+    display: block;
+    text-align: center;
+    font-size: 10cm;
+}
+    
+#bc
+{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 2em;
+    color: rgb(254, 9, 9);
+    background-color: antiquewhite;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons.hover{
+    background-color: rgb(18, 10, 249);
+}
+
+*/
+
+/* random num gen
+body{
+    font-family: verdana;
+    text-align: center;
+}
+#mybutton{
+    font-size: 15px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.mylabels{
+    font-size: 10px;
+}
+    */
+
+  /*temp coverter 
+  
+    body{
+        font-family: verdana;
+        background-color: bisque;
+    }
+    h1{
+        color: rgb(7, 255, 255);
+    }
+    form{
+        text-align: center;
+        background-color: white;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 10px;
+        size: 20pxs;
+    }
+    #tb{
+        size: 10px;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+    }
+    label{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    button{
+        background-color: rgb(248, 6, 6);
+        columns: white;
+        padding: 10px 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(248, 6, 30);
+    }
+    #result{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+ */
+
+/* digital clock program
+ body{
+    background-image: url(bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+ }
+ #cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 150vh;
+ }
+ #clock{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    backdrop-filter: blur(2px);
+ }
+    */
+
+/* stopwatch
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite ;
+}
+#mh{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dotted;
+    color:brown;
+}
+#cont{
+    flex-direction: column;
+    padding: 50px;
+    border: 3px solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+#dis{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#ctr button{
+    font-size: 30px;
+    border: none;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 10px;
+    min-width: 150px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#stab{
+    background-color:green;
+}
+#stab.hover{
+    background-color: orangered ;
+}
+#stob{
+    background-color: red;
+}
+#stob.hover{
+    background-color: lightsalmon ;
+}
+#rstb{
+    background-color: rgb(79, 79, 245);
+}
+#rstb.hover{
+    background-color: lightgreen ;
+}
+    */
+
+/*html chnge elemnts
+#frt{
+    border: 1px solid;
+    font-size: 50px;
+}
+    */
+
+/* mouseevents
+#box{
+    background-color: antiquewhite;
+   width: 300px;
+   height: 300px;
+   font-size: 100px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+    
+}
+#but{
+    size: 10px;
+}
+ */
+
+/*keyevents
+
+ #box{
+    background-color: antiquewhite;
+   width: 150px;
+   height: 150px;
+   font-size: 100px;
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+   
+/*hiding
+#btn{
+    size: 50px;
+}
+*/
+
+/*classlists
+#btn{
+    font-size: 200px;
+    border: none;
+    border-radius: 10px;
+}
+#enable{
+    background-color: aqua;
+    color: white;
+}
+.hover{
+    box-shadow: 0 0 10px rgb(47, 46, 46);
+}
+*/
+
+/*image slider
+ .slider{
+    position:relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+ }
+ .slider img{
+    width: 100%;
+    display: none;
+ }
+img.displayslide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+.slider{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    font-size: 30px;
+    background-color: rgb(55, 46, 46);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+#keyframes fade{
+    from{opacity:.5}
+    to{opacity: 1;}
+}
+*/
+
+/*calculator
+
+body{
+    margin: 0%;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    background-color: rgb(253, 224, 224);
+}
+#calci{
+    background-color: black;
+    border-radius: 10px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1px;
+    padding: 10px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(35, 36, 35);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  button.hover{
+    background-color: hsl(0, 0, 40%);
+  }
+  button.active{
+    background-color: hsl(0, 0, 50%);
+  }
+*/
+
+/* ROCKPAPERSCISSOR
+body{
+    font-family: cursive;
+    font-weight: bold;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    color: black;  
+}
+.choices{
+    margin-bottom: 50px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 300px;
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: background-Color 0.5s ease;
+}
+.choices button:hover{
+    background-color: rgb(181, 247, 249);
+}
+#playdis,#compdis{
+    font-size: 2.5rem;
+}
+#resdis{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+    */
